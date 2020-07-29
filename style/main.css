@@ -270,13 +270,15 @@ main{
   align-items: center;
   margin-bottom: 6px;
 }
-.commentList li:nth-last-child(2){
-  margin-bottom: 10px;
-}
 
-.commentList li:last-child{
+.timeToLastComment{
   font-size: 10px;
   color: var(--light-gray-color);
+  margin-bottom: 10px;
+  padding: 16px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: inline-block;
 }
 
 .commentListLeft a{

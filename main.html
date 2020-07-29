@@ -86,15 +86,13 @@
                   </div>
                   <img src="/img/heart.png" alt="like-to-comment">
                 </li>
-                <li>
-                  <span class="timeToLastComment">42분 전</span>
-                </li>
               </ul>
             </div>
+            <span class="timeToLastComment">42분 전</span>
             <div class="writeComment">
-              <form>
+              <form onsubmit="return false;"> 
                 <textarea name="comment" id="comment" placeholder="댓글 달기..."></textarea>
-                <button>게시</button>
+                <button id='commentBtn'>게시</button>
               </form>
             </div>
           </div>
@@ -149,15 +147,13 @@
                   </div>
                   <img src="/img/heart.png" alt="like-to-comment">
                 </li>
-                <li>
-                  <span class="timeToLastComment">2시간 전</span>
-                </li>
               </ul>
+              <span class="timeToLastComment">2시간 전</span>
             </div>
             <div class="writeComment">
               <form>
-                <textarea name="comment" id="comment" placeholder="댓글 달기..."></textarea>
-                <button>게시</button>
+                <!-- <textarea name="comment" id="comment" placeholder="댓글 달기..."></textarea>
+                <button>게시</button> -->
               </form>
             </div>
           </div>
