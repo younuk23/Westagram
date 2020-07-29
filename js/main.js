@@ -24,12 +24,14 @@ function appendComment() {
 
 commentBtn.addEventListener('click',appendComment)
 txt.addEventListener('keydown', (e) => {
-  if(e.keyCode === 13){
+  let enter = e.keyCode? e.keyCode : e.which;
+  if(enter === 13){
     appendComment();
   }
 })
 
-
+// article이 여러개일때? 어떻게 처리??, 배열로 인덱스넘버 이용해서 각 인덱스넘버다마다 할당? 
+// 부모태그를 인덱스태그로 받고, 데이터를 받고 추가하는 대상을 인덱스넘버로 다시 변수설정??
 
 
 
